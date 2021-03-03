@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100%;
+    background-color: #2adada;
+    height: 100vh;
+    display: grid;
+    background-attachment: fixed;
+    background-position: center;
+    place-items: center;
+}
+/* .inner-div{
+    width: 30vw;
+    background-color: #fff;
+    padding: 1.5rem 5rem;
+    box-shadow: 0 1rem 1rem -0.1rem rgba(0,0,0,0.4);
+
+} */
+.inner-div{
+    background-color: #fff;
+    padding: 50px;
+    border: 1px solid blue;
+    box-shadow: 0 10px 10px -0.1px rgba(0,0,0,0.4);
+}
+.inner-div h2{
+    font-size: 1.5rem;
+    color: tomato;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+.inner-div li{
+    font-size: 1.8rem;
+    padding: 10px 0 0 0;
+    list-style: none;
+
+}
+input{
+    cursor: pointer;
+}
+#submit{
+    font-size: 2rem;
+    color: black;
+    outline: none;
+    /* text-align: center; */
+    margin: auto;
+    padding: 5px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 1px solid aqua;
+
+}
+#submit:hover{
+    background-color: blue;
+}
+#showScore{
+    background-color: aquamarine;
+    margin-top: 15px;
+    padding: 15px 20px;
+    box-shadow: 0 10px 10 -0.10px rgba(0,0,0,0.4);
+}
+#showScore h3{
+    font-size: 30px;
+    text-align: center;
+    
+}
+#showScore .btn{
+    font-size: 18px;
+    color: black;
+    background-color: green;
+    outline: none;
+    /* text-align: center; */
+    margin: auto;
+    padding: 5px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 1px solid aqua;
+}
+#showScore .btn:hover{
+    background-color: blue;
+}
+
+.scoreArea{
+    display: none;
+}
+
+
+/* button */
+
+.button1{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid aqua;
+    border-radius: 25px;
+    background-color: rgba(67, 30, 201, 0.897);
+}
+#btn1:hover{
+    
+    background-color: darkgreen;
+    transition: .3s;
+}
+#btn2:hover{
+    background-color: crimson;
+    transition: .3s;
+}
+#btn3:hover{
+    background-color: red;
+    transition: .3s;
+}
+
+.level{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h3{
+    color: red;
+}
